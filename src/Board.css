@@ -1,0 +1,24 @@
+.Board {
+  margin: 0 auto;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height:90vh;
+  
+}
+.Board-table{
+  background: rgb(0, 0, 0);
+  padding:4px;
+  border: solid 2px rgb(243, 255, 137);
+  border-radius: 3px;
+}
+
+.Board-title{
+  margin-top:0;
+}
+
+.Board-wins{
+  font-size:7rem;
+  color:rgb(245, 242, 76)
+}
